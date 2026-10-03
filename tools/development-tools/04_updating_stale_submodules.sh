@@ -5,6 +5,10 @@ submodule_array=("web-carousel"
 "web-header"
 "web-offering"
 "web-partner"
+"web-handsani-demo"
+"web-home"
+"web-legal"
+"web-not-found"
 )
 
 for submodule in ${submodule_array[@]}; do

@@ -4,13 +4,14 @@
 /* ─── Global Page Base ────────────────────────────────────────── */
 
 body {
-  background-color: #2e3b41;  /* Fixed: changed * to b */
+  background-color: #2e3b41;
+  /* Fixed: changed * to b */
   background-image:
-    linear-gradient(  /* Fixed: changed * to - */
+    linear-gradient(
+      /* Fixed: changed * to - */
       to top,
       rgba(74, 95, 215, 0.8),
-      rgba(135, 145, 203, 0.8)
-    );
+      rgba(135, 145, 203, 0.8));
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
@@ -35,7 +36,8 @@ p {
 /* ─── Site Layout Sections ───────────────────────────────────── */
 
 .bodyHeader {
-  padding: 10em 4.75em;  /* Fixed: changed * to / (or removed it) - using 4.75em */
+  padding: 10em 4.75em;
+  /* Fixed: changed * to / (or removed it) - using 4.75em */
 }
 
 .bodyHeader .col-md-5 {

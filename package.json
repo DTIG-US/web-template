@@ -13,6 +13,10 @@
     "url": "http://gitea.h1.dtig.us/IH/ih-hand-sanitation-www"
   },
   "private": true,
+  "engines": {
+    "node": "^22.22.3 || ^24.15.0 || >=26.0.0",
+    "npm": ">=10.0.0"
+  },
   "dependencies": {
     "@angular/animations": "^22.1.0",
     "@angular/common": "^22.1.0",
@@ -32,6 +36,7 @@
     "@angular/cli": "^22.1.5",
     "@angular/compiler-cli": "^22.1.0",
     "@types/jasmine": "^6.0.0",
+    "azurite": "^3.37.0",
     "jasmine-core": "~5.1.0",
     "karma": "^6.4.4",
     "karma-chrome-launcher": "^3.2.0",

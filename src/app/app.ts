@@ -1,14 +1,12 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 import { HeaderComponent } from './web-header/header.component';
-import { CarouselComponent } from './web-carousel/carousel.component';
-import { PartnersComponent } from './web-partner/partners.component';
 import { FooterComponent } from './web-footer/footer.component';
-import { OfferingComponent } from './web-offering/offering.component';
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, CarouselComponent, PartnersComponent, FooterComponent, OfferingComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
