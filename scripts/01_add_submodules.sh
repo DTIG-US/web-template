@@ -12,7 +12,12 @@ submodule_array=("web-carousel"
 "web-header"
 "web-offering"
 "web-partner"
+"web-handsani-demo"
+"web-home"
+"web-legal"
+"web-not-found"
 )
+
 
 # The default branch for all submodules is main
 branch="main"

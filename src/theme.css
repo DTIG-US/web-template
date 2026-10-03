@@ -34,17 +34,21 @@
   --ih-radius-lg: 16px;
 
   --ih-shadow-glow: 0 0 16px rgba(125, 249, 255, 0.4),
-                     0 4px 12px rgba(0, 0, 0, 0.3);
+    0 4px 12px rgba(0, 0, 0, 0.3);
 
   --ih-shadow-glow-hover: 0 0 28px rgba(125, 249, 255, 0.7),
-                           0 6px 18px rgba(0, 0, 0, 0.35);
+    0 6px 18px rgba(0, 0, 0, 0.35);
 
   /* Header */
   --ih-header-bg: rgba(0, 0, 0, 0.1);
   --ih-header-border: rgba(255, 255, 255, 0.1);
-  --ih-header-text: rgba(255, 255, 255, 0.5);
+  --ih-header-text: rgba(197, 27, 27, 0.5);
   --ih-header-link: rgba(255, 255, 255, 0.5);
   --ih-header-link-hover: #ffffff;
+
+  /* Slogan */
+  --ih-header-custom-slogan-color: #08163a;
+  --ih-header-custom-slogan-font: 'Inter', Helvetica, sans-serif;
 
   /* Offerings */
   --ih-offerings-bg: rgba(0, 0, 0, 0.1);
@@ -81,7 +85,7 @@
   --ih-results-link: rgba(255, 255, 255, 0.5);
   --ih-results-link-hover: #ffffff;
 
-    /* Carousel */
+  /* Carousel */
   --ih-carousel-dot-size: 10px;
   --ih-carousel-dot-gap: 8px;
   --ih-carousel-dot-color: rgba(255, 255, 255, 0.4);

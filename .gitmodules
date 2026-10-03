@@ -13,3 +13,15 @@
 [submodule "src/app/web-partner"]
 	path = src/app/web-partner
 	url = https://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@github.com/DTIG-US/web-partner.git
+[submodule "src/app/web-handsani-demo"]
+	path = src/app/web-handsani-demo
+	url = https://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@github.com/DTIG-US/web-handsani-demo.git
+[submodule "src/app/web-home"]
+	path = src/app/web-home
+	url = https://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@github.com/DTIG-US/web-home.git
+[submodule "src/app/web-legal"]
+	path = src/app/web-legal
+	url = https://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@github.com/DTIG-US/web-legal.git
+[submodule "src/app/web-not-found"]
+	path = src/app/web-not-found
+	url = https://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@github.com/DTIG-US/web-not-found.git

@@ -9,5 +9,6 @@ resource "azurerm_resource_group" "rg" {
 }
 
 locals {
-  swa_name = "ih-www-${upper(var.environment)}"
+  swa_name            = "ih-www-${upper(var.environment)}"
+  swa_dns_auth_record = "dnsauth_${var.swa_custom_domain}"
 }

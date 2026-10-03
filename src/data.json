@@ -3,32 +3,44 @@
   "logo": "images/Coming_Soon_Black.png",
   "menu": [
     {
-      "label": "Web Template GitHub Repo",
+      "label": "Template GitHub Repo",
       "url": "https://github.com/DTIG-US/web-template.git"
     },
     {
-      "label": "Web Header GitHub Repo",
+      "label": "Header GitHub Repo",
       "url": "https://github.com/DTIG-US/web-header.git"
     },
     {
-      "label": "Web Carousel GitHub Repo",
+      "label": "Carousel GitHub Repo",
       "url": "https://github.com/DTIG-US/web-carousel.git"
     },
     {
-      "label": "Web Offering GitHub Repo",
+      "label": "Offering GitHub Repo",
       "url": "https://github.com/DTIG-US/web-offering.git"
     },
     {
-      "label": "Web Partner GitHub Repo",
+      "label": "Partner GitHub Repo",
       "url": "https://github.com/DTIG-US/web-partner.git"
     },
     {
-      "label": "Web Footer GitHub Repo",
+      "label": "Footer GitHub Repo",
       "url": "https://github.com/DTIG-US/web-footer.git"
     },
     {
       "label": "Hand Sani Demo GitHub Repo",
       "url": "https://github.com/DTIG-US/hand-sani-demo.git"
+    },
+    {
+      "label": "Legal GitHub Repo",
+      "url": "https://github.com/DTIG-US/web-legal.git"
+    },
+    {
+      "label": "Not Found GitHub Repo",
+      "url": "https://github.com/DTIG-US/web-not-found.git"
+    },
+    {
+      "label": "Home GitHub Repo",
+      "url": "https://github.com/DTIG-US/web-home.git"
     }
   ],
   "carousel": [
