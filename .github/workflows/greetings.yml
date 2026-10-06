@@ -1,16 +1,17 @@
-name: Greetings
+name: First Interaction
+description: Greet first-time contributors when they open an issue or PR
+author: GitHub 
 
-on: [pull_request, issues]
+inputs:
+  issue_message:
+    description: Comment to post on an individual's first issue
+  pr_message:
+      description: Comment to post on an individual's first pull request
+    repo_token:
+      description: Token with permissions to post issue and PR comments
+      required: true
+      default: ${{ github.token }}
 
-jobs:
-  greeting:
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      pull-requests: write
-    steps:
-    - uses: actions/first-interaction@v1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Message that will be displayed on users first issue'
-        pr-message: 'Message that will be displayed on users first pull request'
+  runs: 
+    using: node24
+    main: dist/index.js

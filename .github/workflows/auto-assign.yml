@@ -11,9 +11,9 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-    - name: 'Auto-assign issue'
-      uses: pozil/auto-assign-issue@v2
-      with:
+      - name: 'Auto-assign issue'
+        uses: pozil/auto-assign-issue@v4
+        with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: John-Abdelsayed
+          assignees: YOUR_ASSIGNEE_HERE
           numOfAssignee: 1
