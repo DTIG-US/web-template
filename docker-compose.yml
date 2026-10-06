@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  web-template:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: web-template:latest
+    container_name: web-template-app
+    ports:
+      # Maps port 8080 on your host machine to port 80 in the container
+      - "8080:80"
+    restart: unless-stopped
