@@ -49,9 +49,9 @@ commit_preprocessors = [
 ]
 # regex for parsing and grouping commits
 commit_parsers = [
-  { message = "^Added", group = "Features" },
-  { message = "^Changed", group = "Refactor" },
-  { message = "^Removed", group = "Refactor" },
+  { message = "^\\[Added\\]", group = "Features" },
+  { message = "^\\[Changed\\]", group = "Refactor" },
+  { message = "^\\[Removed\\]", group = "Refactor" },
   { message = "^feat", group = "Features" },
   { message = "^fix", group = "Bug Fixes" },
   { message = "^doc", group = "Documentation" },
