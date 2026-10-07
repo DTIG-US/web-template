@@ -9,24 +9,49 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   changelog:
     name: Generate changelog
     runs-on: ubuntu-latest
+    # Skip commit-back on PRs from forks (no write access)
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # Use a token that can push back to the repo
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate a changelog
         uses: orhun/git-cliff-action@v4.9.1
         id: git-cliff
         with:
           config: cliff.toml
-          args: --verbose
-        env:
-          OUTPUT: CLIFF-NOTES.md
+          args: --verbose --output CLIFF-NOTES.md
 
       - name: Print the changelog
-        run: cat "${{ steps.git-cliff.outputs.changelog }}"
+        run: cat CLIFF-NOTES.md
+
+      - name: Upload changelog artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CLIFF-NOTES
+          path: CLIFF-NOTES.md
+          if-no-files-found: error
+
+      - name: Commit changelog back to repo
+        if: github.event_name == 'push'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CLIFF-NOTES.md
+          if git diff --cached --quiet; then
+            echo "No changelog changes to commit."
+          else
+            git commit -m "chore: update CLIFF-NOTES.md [skip ci]"
+            git push
+          fi
