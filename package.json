@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@angular/build": "^22.1.5",
-    "@angular/cli": "^22.1.5",
+    "@angular/cli": "^22.2.1",
     "@angular/compiler-cli": "^22.1.0",
     "@types/jasmine": "^6.0.0",
     "azurite": "^3.37.0",
