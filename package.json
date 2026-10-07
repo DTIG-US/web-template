@@ -24,7 +24,7 @@
     "@angular/core": "^22.1.0",
     "@angular/forms": "^22.1.0",
     "@angular/platform-browser": "^22.1.0",
-    "@angular/router": "^22.1.0",
+    "@angular/router": "^22.2.0",
     "bootstrap": "^5.3.0-alpha3",
     "ngx-carousel-ease": "^0.2.3",
     "rxjs": "~7.8.0",
