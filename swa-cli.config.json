@@ -1,7 +1,7 @@
 {
   "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
   "configurations": {
-    "ih-hand-sanitation-www": {
+    "web-template": {
       "appLocation": ".",
       "outputLocation": "dist/angular-project/browser",
       "appBuildCommand": "npm run build",

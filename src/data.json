@@ -1,6 +1,7 @@
 {
   "title": "YOUR SITE TITLE HERE",
   "logo": "images/Coming_Soon_Black.png",
+  "slogan": "YOUR SLOGAN HERE",
   "menu": [
     {
       "label": "Template GitHub Repo",
