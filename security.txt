@@ -1,0 +1,6 @@
+Contact: mailto:security@insightfulhealthai.com
+Contact: mailto:security@dtig.us
+Expires: 2030-01-01T18:00:00.000Z
+Preferred-Languages: en, es, ar, fr
+Canonical: https://insightfulhealthai.com/security.txt
+Policy: https://insightfulhealthai.com/security_policy.txt

@@ -1,27 +1,27 @@
 [submodule "src/app/web-carousel"]
 	path = src/app/web-carousel
-	url = https://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@github.com/DTIG-US/web-carousel.git
+	url = https://github.com/DTIG-US/web-carousel.git
 [submodule "src/app/web-footer"]
 	path = src/app/web-footer
-	url = https://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@github.com/DTIG-US/web-footer.git
+	url = https://github.com/DTIG-US/web-footer.git
 [submodule "src/app/web-header"]
 	path = src/app/web-header
-	url = https://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@github.com/DTIG-US/web-header.git
+	url = https://github.com/DTIG-US/web-header.git
 [submodule "src/app/web-offering"]
 	path = src/app/web-offering
-	url = https://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@github.com/DTIG-US/web-offering.git
+	url = https://github.com/DTIG-US/web-offering.git
 [submodule "src/app/web-partner"]
 	path = src/app/web-partner
-	url = https://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@github.com/DTIG-US/web-partner.git
+	url = https://github.com/DTIG-US/web-partner.git
 [submodule "src/app/web-handsani-demo"]
 	path = src/app/web-handsani-demo
-	url = https://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@github.com/DTIG-US/web-handsani-demo.git
+	url = https://github.com/DTIG-US/web-handsani-demo.git
 [submodule "src/app/web-home"]
 	path = src/app/web-home
-	url = https://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@github.com/DTIG-US/web-home.git
+	url = https://github.com/DTIG-US/web-home.git
 [submodule "src/app/web-legal"]
 	path = src/app/web-legal
-	url = https://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@github.com/DTIG-US/web-legal.git
+	url = https://github.com/DTIG-US/web-legal.git
 [submodule "src/app/web-not-found"]
 	path = src/app/web-not-found
-	url = https://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@github.com/DTIG-US/web-not-found.git
+	url = https://github.com/DTIG-US/web-not-found.git
