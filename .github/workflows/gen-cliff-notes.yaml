@@ -37,7 +37,7 @@ jobs:
         run: cat CLIFF-NOTES.md
 
       - name: Upload changelog artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: CLIFF-NOTES
           path: CLIFF-NOTES.md
