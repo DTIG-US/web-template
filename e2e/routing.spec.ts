@@ -7,8 +7,8 @@ test.describe('Static Pages Routing', () => {
     // Verify home page sections are rendered
     await expect(page.locator('app-carousel')).toBeVisible();
     await expect(page.locator('app-partners')).toBeVisible();
-    await expect(page.locator('app-demo')).toBeVisible();
     await expect(page.locator('app-offering')).toBeVisible();
+    await expect(page.locator('app-demo')).not.toBeVisible();
   });
 
   test('should navigate to Privacy Policy via footer link', async ({ page }) => {
